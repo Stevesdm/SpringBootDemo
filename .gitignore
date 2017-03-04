@@ -13,3 +13,17 @@ SpringBoot-helloworld/.project
 SpringBoot-helloworld/.settings/org.eclipse.core.resources.prefs
 SpringBoot-helloworld/.settings/org.eclipse.m2e.core.prefs
 SpringBoot-helloworld/.settings/org.eclipse.wst.common.project.facet.core.xml
+SpringBoot-mail/.classpath
+SpringBoot-mail/.gitignore
+SpringBoot-mail/.project
+SpringBoot-mail/.settings/org.eclipse.core.resources.prefs
+SpringBoot-mail/.settings/org.eclipse.jdt.core.prefs
+SpringBoot-mail/.settings/org.eclipse.m2e.core.prefs
+SpringBoot-mail/.settings/org.eclipse.wst.common.project.facet.core.xml
+SpringBoot-test/.classpath
+SpringBoot-test/.gitignore
+SpringBoot-test/.project
+SpringBoot-test/.settings/org.eclipse.core.resources.prefs
+SpringBoot-test/.settings/org.eclipse.jdt.core.prefs
+SpringBoot-test/.settings/org.eclipse.m2e.core.prefs
+SpringBoot-test/.settings/org.eclipse.wst.common.project.facet.core.xml

@@ -1,4 +1,4 @@
-package com.steve.SpringBoot_duuid;
+package com.steve.SpringBoot_druid;
 
 import java.sql.SQLException;
 

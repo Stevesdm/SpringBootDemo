@@ -1,10 +1,16 @@
 package com.steve.SpringBoot_duuid;
 
+import java.sql.SQLException;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
 
@@ -45,4 +51,42 @@ public class DruidConfiguration {
 	    filterRegistrationBean.addInitParameter("exclusions","*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*");
 	       return filterRegistrationBean;
 	    }
+	    
+//手动配置数据源
+//	@Bean
+//	public DataSource druidDataSource(
+//			@Value("${spring.datasource.driverClassName}") String driver,
+//			@Value("${spring.datasource.url}") String url,
+//			@Value("${spring.datasource.username}") String username,
+//			@Value("${spring.datasource.password}") String password,
+//			@Value("${spring.datasource.maxActive}") int maxActive
+//		){
+//		DruidDataSource druidDataSource = new DruidDataSource();
+//
+//		druidDataSource.setDriverClassName(driver);
+//
+//		druidDataSource.setUrl(url);
+//
+//		druidDataSource.setUsername(username);
+//
+//		druidDataSource.setPassword(password);
+//
+//		druidDataSource.setMaxActive(maxActive);
+//
+//		System.out.println(
+//				"DruidConfiguration.druidDataSource(),url=" + url + ",username=" + username + ",password=" + password);
+//
+//		try {
+//
+//			druidDataSource.setFilters("stat, wall");
+//
+//		} catch (SQLException e) {
+//
+//			e.printStackTrace();
+//
+//		}
+//		return druidDataSource;
+//	}
+	
+	
 }

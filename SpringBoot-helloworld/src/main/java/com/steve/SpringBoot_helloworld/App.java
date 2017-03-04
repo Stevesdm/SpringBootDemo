@@ -2,16 +2,19 @@ package com.steve.SpringBoot_helloworld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.steve.model.Person;
 
 /**
  * Hello world!
  *
  */
 
-@RestController
 @SpringBootApplication
+@ComponentScan("com.steve")
 public class App 
 {
     public static void main( String[] args )
@@ -19,8 +22,5 @@ public class App
     	SpringApplication.run(App.class, args);
     }
     
-    @RequestMapping("/")
-    public String hello(){
-    	return "hello world";
-    }
+ 
 }

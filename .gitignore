@@ -28,3 +28,10 @@ SpringBoot-test/.settings/org.eclipse.jdt.core.prefs
 SpringBoot-test/.settings/org.eclipse.m2e.core.prefs
 SpringBoot-test/.settings/org.eclipse.wst.common.project.facet.core.xml
 SpringBoot-aop/
+springboot-mybatis/.classpath
+springboot-mybatis/.gitignore
+springboot-mybatis/.project
+springboot-mybatis/.settings/org.eclipse.core.resources.prefs
+springboot-mybatis/.settings/org.eclipse.jdt.core.prefs
+springboot-mybatis/.settings/org.eclipse.m2e.core.prefs
+springboot-mybatis/.settings/org.eclipse.wst.common.project.facet.core.xml
